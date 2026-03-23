@@ -1,0 +1,11 @@
+# ygopro-super- で始まるディレクトリ一式（pre1, pre2, merged など）
+ygopro-super-*/
+
+# YGOPRO パック
+*.ypk
+
+# マージ実行ログ（都度上書き）
+merge-log.txt
+
+# 手動更新用クエリ（ローカル用）
+manualupdate.sqlite3-query

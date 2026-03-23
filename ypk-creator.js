@@ -12,7 +12,7 @@ class YPKCreator {
     constructor() {
         this.baseDir = __dirname;
         this.sourceDir = 'ygopro-super-merged';
-        this.outputFile = 'ygopro-super-pre-merged.ypk';
+        this.outputFile = 'c.ypk';
         this.tempDir = 'temp_ypk_creation';
     }
 
@@ -98,7 +98,7 @@ class YPKCreator {
         // パック名を更新
         content = content.replace(
             /PackName = .*/,
-            'PackName = ygopro-super-pre-merged'
+            'PackName = c'
         );
         
         // サーバー名を更新
@@ -123,7 +123,7 @@ class YPKCreator {
     createNewCorresSrvIni(iniPath) {
         const content = `[YGOProExpansionPack]
 FileName = ${this.outputFile}
-PackName = ygopro-super-pre-merged
+PackName = c
 PackAuthor = Mycard
 PackHomePage = https://mycard.world/
 [YGOMobileAddServer]

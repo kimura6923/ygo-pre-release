@@ -84,7 +84,7 @@ class YGOProMerger {
             
             console.log('\n✅ マージが完了しました！');
             console.log(`📊 結果: ${this.outputDir}/ に保存されました`);
-            console.log(`📦 YPK: ygopro-super-pre-merged.ypk が作成されました`);
+            console.log(`📦 YPK: ${this.ypkCreator.outputFile} が作成されました`);
             console.log(`📝 ログ: ${this.logFile} を確認してください`);
             
         } catch (error) {

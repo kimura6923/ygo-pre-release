@@ -33,13 +33,13 @@
 
 3. **結果の確認**
    - マージ結果: `ygopro-super-merged/` ディレクトリ
-   - YPKファイル: `ygopro-super-pre-merged.ypk`
+   - YPKファイル: `c.ypk`
    - 詳細ログ: `merge-log.txt` ファイル
 
 ## 注意事項
 
 - 既存の `ygopro-super-merged` ディレクトリは上書きされます
-- 既存の `ygopro-super-pre-merged.ypk` ファイルは上書きされます
+- 既存の `c.ypk` ファイルは上書きされます
 - 隠しファイル（.で始まるファイル）は処理対象外です
 - ファイルの内容比較は文字列ベースで行われます
 - CDBファイルはSQLiteデータベースとして処理されます

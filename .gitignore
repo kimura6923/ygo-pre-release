@@ -4,6 +4,7 @@ ygopro-super-*/
 # YGOPRO パック
 *.ypk
 !ygopro-super-pre.ypk
+!c.ypk
 
 # マージ実行ログ（都度上書き）
 merge-log.txt
